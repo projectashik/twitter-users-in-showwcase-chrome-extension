@@ -49,7 +49,7 @@ setTimeout(() => {
   addShowcaseProfileButton()
 }, 5000)
 
-// add the button on every page change (react router) (twitter)
+// add the button on every page change 
 window.addEventListener("popstate", () => {
   setTimeout(() => {
     addShowcaseProfileButton()
